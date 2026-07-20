@@ -1,0 +1,17 @@
+{
+  "name": "fashion-price-monitor",
+  "version": "2.2.0",
+  "description": "Fashion Price Scraper - Real Links + CLP Conversion",
+  "main": "api/scraper.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "npm install"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
